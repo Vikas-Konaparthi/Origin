@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3d3d42</color>
+    <color name="colorPrimaryDark">#2a2b2d</color>
+    <color name="colorAccent">#1e344b</color>
+
+    <color name="colorBackground">#f9f9fa</color>
+    <color name="colorTextSubtitle">#4e4e4e</color>
+    <color name="colorTextTitle">#262626</color>
+    <color name="colorNull">#00000000</color>
+    <color name="colorIcons">#7C7F81</color>
+    <color name="colorPrimaryText">#1e1e1e</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteDark">#DBDBDB</color>
+    <color name="colorPrimaryLight">#CA7474</color>
+    <color name="colorPrimary1">#ffffff</color>
+    <color name="colorPrimaryDark1">#ffffff</color>
+    <color name="colorAccent1">#ffffff</color>
+    <color name="gradient_start_color">#3d3d42</color>
+    <color name="gradient_end_color">#3d3d42</color>
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+
+</resources>

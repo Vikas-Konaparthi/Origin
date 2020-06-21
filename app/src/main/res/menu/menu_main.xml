@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.vikaskonaparthi.origin.MainActivity">
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"/>
+
+    <item
+        android:id="@+id/dark_mode"
+        android:orderInCategory="100"
+        android:title="Origin Web"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/activity_contact"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="About"
+        app:showAsAction="never"/>
+
+
+
+
+
+</menu>

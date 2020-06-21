@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SettingsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@android:color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <android.support.design.card.MaterialCardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        app:cardCornerRadius="0.5dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ABOUT"
+            tools:text="About"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </android.support.design.card.MaterialCardView>
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        app:cardCornerRadius="0.5dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="141dp"
+            android:layout_height="193dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/vikas3" />
+    </android.support.design.card.MaterialCardView>
+    <android.support.design.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/colorAccent"
+        app:cardCornerRadius="0.5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Version 1.0.1" />
+    </android.support.design.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="News and Wifi Calling:Discover the feed from around the world using internet while you be in touch with your surrounding's using Wifi Direct." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Origin Food:Once you get a spice in your home, you have it forever.Discover the food from the Origin Food." />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:text="Developed by VIKAS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:text="Origin Simply the Best"/>
+
+</LinearLayout>
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
