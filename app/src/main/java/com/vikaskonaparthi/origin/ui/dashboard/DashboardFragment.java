@@ -97,9 +97,9 @@ public class DashboardFragment extends Fragment implements SwipeRefreshLayout.On
         errorTitle = root.findViewById(R.id.errorTitle) ;
         errorMessage = root.findViewById(R.id.errorMessage);
         btnRetry = root.findViewById(R.id.btnRetry);
-        MobileAds.initialize(getActivity(),"ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(getActivity(),"ca-app-pub-xxxxxxxxxxxxxxxxx");
         interstitialAd = new InterstitialAd(getActivity());
-        interstitialAd.setAdUnitId("ca-app-pub-6862851420275633/3227253163");
+        interstitialAd.setAdUnitId("ca-app-pub-xxxxxxxxxxxxxxxxxx");
         interstitialAd.loadAd(new AdRequest.Builder().build());
         interstitialAd.setAdListener(new AdListener(){
             @Override

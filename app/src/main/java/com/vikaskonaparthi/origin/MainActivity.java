@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
         MobileAds.initialize (this, getString (R.string.admob_app_id));
         interstitialAd = new InterstitialAd(this);
-        interstitialAd.setAdUnitId("ca-app-pub-6862851420275633/8861064667");
+        interstitialAd.setAdUnitId("ca-app-pub-xxxxxxxxxxxxxxxxxxxxxxx");
         interstitialAd.loadAd(new AdRequest.Builder().build());
         interstitialAd.setAdListener(new AdListener()
         {
